@@ -1,5 +1,9 @@
 package OOP;
 
+import java.util.Scanner;
+
+java.util.Scanner;
+
 
 
 public class StudentClass {
@@ -13,6 +17,7 @@ public class StudentClass {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
+        Scanner sc = new Scanner(System.in); //Taking object using for taking input
 
         Student x = new Student(); //declaration of object from class----> Class is Student and object is x
         x.name = "Shafayat";

@@ -2,7 +2,6 @@ package OOP;
 
 import java.util.Scanner;
 
-java.util.Scanner;
 
 
 
@@ -25,10 +24,11 @@ public class StudentClass {
         x.percent = 93.5;
         System.out.println("Name:"+x.name+" Roll:"+x.rno+" Percent:"+x.percent);
 
-        Student y = new Student(); //Here class is Fixed which is Student and we can make a lot of objects like x,y
+        Student y = new Student(); //Here class is Fixed which is Student, and we can make a lot of objects like x,y
         y.name = "Hossain";
         y.rno = 12;
         y.percent = 90.5;
+        System.out.println("Name:"+y.name+" Roll:"+y.rno+" Percent:"+y.percent);
 
 
     }
